@@ -1,4 +1,4 @@
-﻿<Window x:Class="ProjectTest.MainWindow"
+<Window x:Class="ProjectTest.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -42,7 +42,7 @@
                 Height="25" 
                 Width="300" 
                 ItemsSource="{Binding Path=ListNameFunc, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
-				SelectedValue="{Binding Path=selectedName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+				SelectedValue="{Binding Path=SelectedName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
             </ComboBox>
         </StackPanel>
 
